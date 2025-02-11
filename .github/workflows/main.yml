@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Wait for 5 Minutes
-        run: sleep 300  # Waits 5 minutes (300 seconds)
+        run: sleep 60  # Waits 5 minutes (300 seconds)
 
       - name: Set Up Git Config (harshkumar.prasad@straive.com)
         run: |
